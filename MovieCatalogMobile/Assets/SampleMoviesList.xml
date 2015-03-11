@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--This is a sample of what a movie catalog will look like-->
+<usersettings>
+  <movies>
+    <movie>
+      <name>Dawn of the Dead</name>
+      <genres>Action,Fantasy,Horror</genres>
+      <year>2004-03-10</year>
+      <image>/yfqsgzW6AQYmBjIEIq0y9EB1Rgl.jpg</image>
+      <movieid>924</movieid>
+      <rating>6.7</rating>
+      <description>A group of surviving people take refuge in a shopping center after the world has been over taken over by aggressive, flesh-eating zombies. A remake of the 1978 zombie film of the same name.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>Dawn</name>
+      <genres>Fantasy,Science Fiction</genres>
+      <year>2014-09-30</year>
+      <image>NONE</image>
+      <movieid>296883</movieid>
+      <rating>0</rating>
+      <description>MORGENRØDE  takes place at the beginning of a new eon, in a water polluted world years after a global fall. Where the legacy of what was, has been quenched and world understanding must take shape again. Surrounded by an endless hazy and drab, bleak desert we follow two survivors who eye each other with the same mutual depraved suspicion as they contemplate their inhospitable surroundings.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>Dawn</name>
+      <genres>
+      </genres>
+      <year>1963-01-01</year>
+      <image>NONE</image>
+      <movieid>271908</movieid>
+      <rating>0</rating>
+      <description>Heper's 7-minute short "Dawn" follows, in a single space between two windows, a triangular love relationship of three people.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>Dawn</name>
+      <genres>Drama,War</genres>
+      <year>1933-03-08</year>
+      <image>NONE</image>
+      <movieid>258145</movieid>
+      <rating>0</rating>
+      <description>Released three days after Adolf Hitler became Reichskanzler, it was the first film to have its screening in Nazi Germany. It became a symbol of the new times touted by the Nazi regime.  The title (literally "morning-red") is the German term for the reddish coloring of the east sky about a half hour before the sunrise. Dawn was the U.S. title.  In 1915, Captain Liers, commander of a submarine is leaving his hometown, where he, his 2nd officer and the radio-operator, spend their shore leave. On patrol they sink a British armored cruiser, but while returning to their harbor, they're attacked. They're able to sink it, but the trap has alarmed a destroyer, that sinks their sub. The sub lays on the sea bed at 200 feet, and except for the bridge, it is full of water. 10 members of the crew survived, but there are only 8 rescue devices. Liers gives the order, that the crew shall use them, but they disobey, either all get out or nobody...</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>Dawn</name>
+      <genres>Drama,Romance</genres>
+      <year>1994-11-30</year>
+      <image>NONE</image>
+      <movieid>285898</movieid>
+      <rating>0</rating>
+      <description>Love story between a famous singer and a women working in a boutique. She joins his group and replaces him as the singer, while he gradually falls for alcohol and drugs.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>Dawn</name>
+      <genres>
+      </genres>
+      <year>2014-01-16</year>
+      <image>NONE</image>
+      <movieid>296726</movieid>
+      <rating>0</rating>
+      <description>Dawn is a quiet young teenager who longs for something or someone to free her from her sheltered life.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>Dawn</name>
+      <genres>
+      </genres>
+      <year>2014-01-01</year>
+      <image>NONE</image>
+      <movieid>316617</movieid>
+      <rating>0</rating>
+      <description>A woman struggles to get her life back on track in the wake of several prison stints in this short drama.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>Dawn</name>
+      <genres>Drama</genres>
+      <year>2012-09-14</year>
+      <image>NONE</image>
+      <movieid>230087</movieid>
+      <rating>0</rating>
+      <description>On an evening commute, Tye detects racism from another passenger's glance. In revenge, he decides to follow and confront the man. Tye's preconceived notion of race and sexuality are tested when he discovered that his younger brother is gay, and the victim is in fact his younger brother's lover.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>Dawn</name>
+      <genres>Drama,War</genres>
+      <year>1928-01-01</year>
+      <image>NONE</image>
+      <movieid>273172</movieid>
+      <rating>0</rating>
+      <description>A nurse helps 210 men escape to England before the Germans catch and execute her.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>Dawn</name>
+      <genres>Drama,Horror</genres>
+      <year>2003-01-01</year>
+      <image>NONE</image>
+      <movieid>229761</movieid>
+      <rating>0</rating>
+      <description>Dawn is a special little girl with special needs. Born from a human father and a vampire mother who died while giving birth. Dawn requires blood to survive. She and her father travel across the country, assuming new identities and never staying in one place for very long--until a small town detective with psychic powers pays extra attention to the murder of one of his townsfolk.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>Dawn</name>
+      <genres>
+      </genres>
+      <year>1973-01-01</year>
+      <image>NONE</image>
+      <movieid>275598</movieid>
+      <rating>0</rating>
+      <description>His poetic film opus Dawn/ Hajnal (1973–1980) was being born during several years, using nine hours of raw material and six thousand photographical motives. Szirtes's masterful experimental work is a dazzling composition of several years of filming within an industrial macro/microcosm, an abstract model of revolution and the beauty of daybreak.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>Dawn of the Planet of the Apes</name>
+      <genres>Action,Drama,Science Fiction,Thriller</genres>
+      <year>2014-07-11</year>
+      <image>/aJemoN7F9GrAYjIL94KXww3QWP9.jpg</image>
+      <movieid>119450</movieid>
+      <rating>7.6</rating>
+      <description>A group of scientists in San Francisco struggle to stay alive in the aftermath of a plague that is wiping out humanity, while Caesar tries to maintain dominance over his community of intelligent apes.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>Red Dawn</name>
+      <genres>Action,Science Fiction,Thriller,War</genres>
+      <year>2012-11-21</year>
+      <image>/uwB68oOgSj2eXqvoSdBLcmsN53p.jpg</image>
+      <movieid>60747</movieid>
+      <rating>5.5</rating>
+      <description>A city in Washington state awakens to the surreal sight of foreign paratroopers dropping from the sky - shockingly, the U.S. has been invaded and their hometown is the initial target. Quickly and without warning, the citizens find themselves prisoners and their town under enemy occupation. Determined to fight back, a group of young patriots seek refuge in the surrounding woods, training and reorganizing themselves into a guerrilla group of fighters. Taking inspiration from their high school mascot, they call themselves the Wolverines, banding together to protect one another, liberate their town from its captors, and take back their freedom.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>Rescue Dawn</name>
+      <genres>Adventure,Drama,War</genres>
+      <year>2006-09-09</year>
+      <image>/oA5kv4EDuED2bgbklapdDCtDvIY.jpg</image>
+      <movieid>9952</movieid>
+      <rating>6.4</rating>
+      <description>A US Fighter pilot's epic struggle of survival after being shot down on a mission over Laos during the Vietnam War.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>From Dusk Till Dawn</name>
+      <genres>Action,Crime,Horror,Thriller</genres>
+      <year>1996-01-18</year>
+      <image>/ce0d4kM5KxT4x1Oq8JkSuNYevri.jpg</image>
+      <movieid>755</movieid>
+      <rating>6.8</rating>
+      <description>Seth Gecko and his younger brother Richard are on the run after a bloody bank robbery in Texas. They escape across the border into Mexico and will be home-free the next morning, when they pay off the local kingpin. They just have to survive 'from dusk till dawn' at the rendezvous point, which turns out to be a Hell of a strip joint.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>Red Dawn</name>
+      <genres>Action,Thriller</genres>
+      <year>1984-08-10</year>
+      <image>/hVyeN1aFmqLsRK9VNElETYBDtnf.jpg</image>
+      <movieid>1880</movieid>
+      <rating>6.8</rating>
+      <description>It is the mid-1980s. From out of the sky, Soviet and Cuban troops begin landing on the football field of a Colorado high school. In seconds, the paratroops have attacked the school and sent a group of teenagers fleeing into the mountains. Armed only with hunting rifles, pistols and bows and arrows, the teens struggles to survive the bitter winter and Soviet KGB patrols hunting for them.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>Dawn of the Dead</name>
+      <genres>Horror</genres>
+      <year>1978-09-02</year>
+      <image>/8D6WEfNZr6JadQrqJr5OOq1QlV0.jpg</image>
+      <movieid>923</movieid>
+      <rating>7.3</rating>
+      <description>During an ever-growing epidemic of zombies that have risen from the dead, two Philadelphia SWAT team members, a traffic reporter, and his television-executive girlfriend seek refuge in a secluded shopping mall.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>Black Dawn</name>
+      <genres>Action</genres>
+      <year>2005-01-01</year>
+      <image>/mXGIa08Gv71ESrVTYNKvH9p8zKS.jpg</image>
+      <movieid>18070</movieid>
+      <rating>5.2</rating>
+      <description>Jonathan Cold returns, this time he goes Undercover to stop a group of Terrorists before they bomb Los Angeles.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>At Dawn</name>
+      <genres>
+      </genres>
+      <year>2013-07-21</year>
+      <image>NONE</image>
+      <movieid>217377</movieid>
+      <rating>0</rating>
+      <description>The story of Diego, a boy of just eleven years old, who lives in a small fishing community north of Mexico. Eva is about to turn thirteen, she is the only daughter of Maria and Jacinto. Eva is dreaming of her birthday when some unexpected events are about to change her life for ever. Diego, her only friend, is the only one who can brighten up the darkest hour before dawn.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>Black Dawn</name>
+      <genres>Crime,Drama</genres>
+      <year>2012-06-02</year>
+      <image>NONE</image>
+      <movieid>328099</movieid>
+      <rating>0</rating>
+      <description>Japan falls into chaos after the earthquake in eastern Japan. The Japanese government then learns from the American CIA that uranium is being smuggled in Japan. The anti-terrorism investigators led by Kenji Sumimoto (Atsuro Watabe) attempt to uncover the truth by tracking the wife of a company president who is suspected of being the contact for the terrorists. An undercover Korean policeman (Kim Kang-Woo) helps the case.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+    <movie>
+      <name>Red Dawn</name>
+      <genres>
+      </genres>
+      <year>2011-05-08</year>
+      <image>NONE</image>
+      <movieid>172772</movieid>
+      <rating>0</rating>
+      <description>The Red Market in Macao. The red tonalities of blood, flesh, buckets and even of the fish’s eyes, carry the audience into a strange and scary universe but also beautiful and intriguing. Rodrigues and Guerra da Mata’s camera emerges like a driving force giving us the exact balance between what exists and what we see.</description>
+      <posternum>0</posternum>
+      <userrating>0</userrating>
+    </movie>
+  </movies>
+  <settings />
+</usersettings>

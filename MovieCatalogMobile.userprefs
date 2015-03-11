@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="MovieCatalogMobile\MovieCatalogMobile.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Test" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieCatalogMobile\CatalogActivity.cs">
+    <Files>
+      <File FileName="MovieCatalogMobile\MainActivity.cs" Line="3" Column="3" />
+      <File FileName="MovieCatalogMobile\Helper Classes\Movie.cs" Line="22" Column="22" />
+      <File FileName="MovieCatalogMobile\Helper Functions\FileHandlers.cs" Line="70" Column="70" />
+      <File FileName="MovieCatalogMobile\Helper Functions\ImageHandler.cs" Line="1" Column="1" />
+      <File FileName="MovieCatalogMobile\CatalogActivity.cs" Line="31" Column="31" />
+      <File FileName="MovieCatalogMobile\Helper Classes\CustomListAdapter.cs" Line="30" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MovieCatalogMobile AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

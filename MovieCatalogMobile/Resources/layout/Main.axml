@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/txtMainDisplay"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="Movie Catalog" />
+    <Button
+        android:id="@+id/btnMainCollection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Catalog" />
+    <Button
+        android:id="@+id/btnMainSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search" />
+    <Button
+        android:id="@+id/btnMainSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings" />
+</LinearLayout>
