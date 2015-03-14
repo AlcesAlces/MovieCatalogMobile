@@ -18,19 +18,24 @@ namespace MovieCatalogMobile
 
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
-
+			FileHandlers.verifyUserFile ();
 			// Get our button from the layout resource,
 			// and attach an event to it
-			Button button = FindViewById<Button> (Resource.Id.btnMainCollection);
+			Button button1 = FindViewById<Button> (Resource.Id.btnMainCollection);
+			Button button3 = FindViewById<Button> (Resource.Id.btnMainSettings);
 			
-			button.Click += catalogClicked;
+			button1.Click += catalogClicked;
+			button3.Click += settingsClicked;
 		}
 
 		protected void catalogClicked(object sender, EventArgs e)
 		{
 			StartActivity (typeof(CatalogActivity));
 		}
+
+		protected void settingsClicked(object sender, EventArgs e)
+		{
+			StartActivity (typeof(SettingsActivity));
+		}
 	}
 }
-
-

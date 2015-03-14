@@ -72,8 +72,23 @@ namespace MovieCatalogMobile
 			// aapt resource value: 0x7f050009
 			public const int btnMainSettings = 2131034121;
 			
+			// aapt resource value: 0x7f05000e
+			public const int btnSearchAdd = 2131034126;
+			
+			// aapt resource value: 0x7f05000d
+			public const int btnSearchGo = 2131034125;
+			
+			// aapt resource value: 0x7f050010
+			public const int btnSettingsLoad = 2131034128;
+			
+			// aapt resource value: 0x7f05000c
+			public const int etSearchInput = 2131034124;
+			
 			// aapt resource value: 0x7f050005
 			public const int lvMovies = 2131034117;
+			
+			// aapt resource value: 0x7f05000f
+			public const int lvSearchMovies = 2131034127;
 			
 			// aapt resource value: 0x7f050000
 			public const int txtCatalogName = 2131034112;
@@ -117,6 +132,12 @@ namespace MovieCatalogMobile
 			
 			// aapt resource value: 0x7f030002
 			public const int row = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int searchactivitylayout = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int settingsactivitylayout = 2130903044;
 			
 			static Layout()
 			{

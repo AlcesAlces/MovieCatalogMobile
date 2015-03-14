@@ -15,8 +15,9 @@ namespace MovieCatalogMobile
 
 		public static string getUserPath()
 		{
-			string path = "userinfo.xml";
-			return Path.Combine(Directory.GetCurrentDirectory(), path);
+			string saveLoc = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+			saveLoc += @"/userinfo.xml";
+			return saveLoc;
 		}
 
 		//checks the integrity of the user file.
@@ -37,7 +38,7 @@ namespace MovieCatalogMobile
 
 		public static void createUserFile()
 		{
-			XmlTextWriter writer = new XmlTextWriter("userinfo.xml", System.Text.Encoding.UTF8);
+			XmlTextWriter writer = new XmlTextWriter(getUserPath(), System.Text.Encoding.UTF8);
 			writer.WriteStartDocument(true);
 			writer.Formatting = Formatting.Indented;
 			writer.Indentation = 2;
@@ -112,12 +113,10 @@ namespace MovieCatalogMobile
 		}
 
 		//Get all of the movies in the user's XML file.
-		public static List<Movie> allMoviesInXml(Stream assets)
+		public static List<Movie> allMoviesInXml()
 		{
 			XmlDocument doc = new XmlDocument();
-			//THIS IS A DEBUG STATEMENT:
-			doc.Load (assets);
-			//doc.Load(getUserPath());
+			doc.Load(getUserPath());
 
 			XmlNodeList nodes = doc.DocumentElement.SelectNodes("/usersettings/movies/movie");
 
@@ -181,6 +180,49 @@ namespace MovieCatalogMobile
 				}
 			}
 
+			doc.Save(getUserPath());
+		}
+
+		public static bool verifyXml(string location)
+		{
+			bool success = true;
+			try
+			{
+				XmlDocument doc = new XmlDocument();
+				doc.Load(location);
+
+				XmlNodeList nodes = doc.DocumentElement.SelectNodes("/usersettings/movies/movie");
+
+				List<Movie> moviesToReturn = new List<Movie>();
+
+				foreach(XmlNode node in nodes)
+				{
+					moviesToReturn.Add(new Movie(node.SelectSingleNode("genres").InnerText.ToString())
+						{
+							imageLocation = node.SelectSingleNode("image").InnerText.ToString(),
+							mid = Int32.Parse(node.SelectSingleNode("movieid").InnerText.ToString()),
+							name = node.SelectSingleNode("name").InnerText.ToString(),
+							onlineRating = Double.Parse(node.SelectSingleNode("rating").InnerText.ToString()),
+							userRating = Double.Parse(node.SelectSingleNode("userrating").InnerText.ToString()),
+							year = node.SelectSingleNode("year").InnerText.ToString(),
+							description = node.SelectSingleNode("description").InnerText.ToString()
+						});
+					moviesToReturn[moviesToReturn.Count - 1].setSortName();
+					moviesToReturn[moviesToReturn.Count - 1].setDisplayYear();
+				}
+			}
+			catch
+			{
+				success = false;
+			}
+
+			return success;
+		}
+
+		public static void saveNewFileByLocation(string location)
+		{
+			XmlDocument doc = new XmlDocument();
+			doc.Load(location);
 			doc.Save(getUserPath());
 		}
 	}

@@ -59,6 +59,9 @@
     <Compile Include="Helper Functions\ImageHandler.cs" />
     <Compile Include="CatalogActivity.cs" />
     <Compile Include="Helper Classes\CustomListAdapter.cs" />
+    <Compile Include="SearchActivity.cs" />
+    <Compile Include="Helper Classes\TMDBHelper.cs" />
+    <Compile Include="SettingsActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -75,6 +78,8 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\layout\row.axml" />
     <AndroidResource Include="Resources\layout\catalogactivitylayout.axml" />
+    <AndroidResource Include="Resources\layout\searchactivitylayout.axml" />
+    <AndroidResource Include="Resources\layout\settingsactivitylayout.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

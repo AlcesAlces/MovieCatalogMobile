@@ -21,7 +21,7 @@ namespace MovieCatalogMobile
 		{
 			this.context = context;
 
-			this.items = FileHandlers.allMoviesInXml (input);
+			this.items = FileHandlers.allMoviesInXml ();
 		}
 
 		public override int Count
