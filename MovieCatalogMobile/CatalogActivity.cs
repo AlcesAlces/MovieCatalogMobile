@@ -22,8 +22,8 @@ namespace MovieCatalogMobile
 		{
 			base.OnCreate (bundle);
 			SetContentView (Resource.Layout.catalogactivitylayout);
-			Stream inputFile = Assets.Open ("SampleMoviesList.xml");
-			listAdapter = new CustomListAdapter (this, inputFile);
+			//Stream inputFile = Assets.Open ("SampleMoviesList.xml");
+			listAdapter = new CustomListAdapter (this);
 
 			var listview = FindViewById<ListView>(Resource.Id.lvMovies);
 

@@ -8,4 +8,9 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Load XML file" />
+    <Button
+    android:id="@+id/btnSettingsLoginSync"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Login and Sync" />
 </LinearLayout>

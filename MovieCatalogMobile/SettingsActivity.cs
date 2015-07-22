@@ -12,6 +12,7 @@ using Android.Views;
 using Android.Widget;
 using Android.Util;
 using System.IO;
+using SocketIOClient;
 
 namespace MovieCatalogMobile
 {
@@ -25,6 +26,8 @@ namespace MovieCatalogMobile
 			// Create your application here
 			Button button1 = FindViewById<Button> (Resource.Id.btnSettingsLoad);
 			button1.Click += loadXmlClicked;
+            Button button2 = FindViewById<Button>(Resource.Id.btnSettingsLoginSync);
+            button2.Click += loginAndSync;
 		}
 
 		protected void loadXmlClicked(object sender, EventArgs e)
@@ -60,6 +63,65 @@ namespace MovieCatalogMobile
 				FileHandlers.saveNewFileByLocation(files[0]);
 			}
 		}
+
+        protected async void loginAndSync(object sender, EventArgs e)
+        {
+            string user = "b";
+            string pass = "b";
+
+            Global.socket = new Client(Global.connectionString);
+
+            //System.Net.WebRequest.DefaultWebProxy = null;
+
+            Global.socket.On("connect", (fn) =>
+                {
+
+                });
+
+            Global.socket.Connect();
+
+            while (!Global.socket.IsConnected);
+
+            string userId = "";
+            try
+            {
+                userId = await MovieCatalogLibrary.DatabaseHandling.MongoInteraction.VerifyCredentials(user, pass, Global.socket);
+            }
+            catch(Exception ex)
+            {
+                if(ex.Message == "TIMEOUT")
+                {
+                    return;
+                }
+            }
+
+            if (userId != String.Empty)
+            {
+                //User is logged in
+                Global.userName = user;
+                Global.uid = userId;
+
+                if (await MovieCatalogLibrary.DatabaseHandling.MongoInteraction.GetUserSyncStatus(Global.userName))
+                {
+                    //TODO: uncoment this and fix it too lol
+                    //MovieCatalogLibrary.DatabaseHandling.MongoXmlLinker.SyncUserFiles(Global.uid);
+                }
+            }
+
+            else
+            {
+                //Incorrect information
+            }
+
+            try
+            {
+                await MovieCatalogLibrary.DatabaseHandling.MongoXmlLinker.SyncUserFiles(Global.uid, Global.socket, MovieCatalogLibrary.FileHandler.platformType.Android);
+            }
+            catch(Exception ex)
+            {
+                int i = 0;
+            }
+        }
 	}
 }
 

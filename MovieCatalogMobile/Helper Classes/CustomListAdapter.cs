@@ -17,7 +17,7 @@ namespace MovieCatalogMobile
 		Activity context;
 		public List<Movie> items;
 
-		public CustomListAdapter(Activity context, Stream input) : base()
+		public CustomListAdapter(Activity context) : base()
 		{
 			this.context = context;
 

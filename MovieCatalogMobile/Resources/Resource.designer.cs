@@ -81,6 +81,9 @@ namespace MovieCatalogMobile
 			// aapt resource value: 0x7f050010
 			public const int btnSettingsLoad = 2131034128;
 			
+			// aapt resource value: 0x7f050011
+			public const int btnSettingsLoginSync = 2131034129;
+			
 			// aapt resource value: 0x7f05000c
 			public const int etSearchInput = 2131034124;
 			
