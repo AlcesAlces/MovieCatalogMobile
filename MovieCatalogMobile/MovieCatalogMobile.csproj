@@ -81,6 +81,7 @@
     <Compile Include="Helper Classes\TMDBHelper.cs" />
     <Compile Include="SettingsActivity.cs" />
     <Compile Include="Global.cs" />
+    <Compile Include="Helper Classes\Hashing.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

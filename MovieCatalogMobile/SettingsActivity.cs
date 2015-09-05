@@ -28,6 +28,8 @@ namespace MovieCatalogMobile
 			button1.Click += loadXmlClicked;
             Button button2 = FindViewById<Button>(Resource.Id.btnSettingsLoginSync);
             button2.Click += loginAndSync;
+            Button button3 = FindViewById<Button>(Resource.Id.btnSettingsDelete);
+            button3.Click += RemoveLocalXML;
 		}
 
 		protected void loadXmlClicked(object sender, EventArgs e)
@@ -64,10 +66,19 @@ namespace MovieCatalogMobile
 			}
 		}
 
+        protected void RemoveLocalXML(object sender, EventArgs e)
+        {
+            FileHandlers.RemoveLocalXML();
+        }
+
         protected async void loginAndSync(object sender, EventArgs e)
         {
-            string user = "b";
-            string pass = "b";
+            TextView userTxt = FindViewById<TextView> (Resource.Id.txtSettingsUser);
+            TextView passTxt = FindViewById<TextView>(Resource.Id.txtSettingsPassword);
+            string user = userTxt.Text;
+            string pass = passTxt.Text;
+            pass = Hashing.stringToHash(pass).ToLower();
+            user = user.ToLower();
 
             Global.socket = new Client(Global.connectionString);
 

@@ -9,8 +9,23 @@
         android:layout_height="wrap_content"
         android:text="Load XML file" />
     <Button
-    android:id="@+id/btnSettingsLoginSync"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:text="Login and Sync" />
+        android:id="@+id/btnSettingsLoginSync"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Login and Sync" />
+    <Button
+        android:text="Delete Local XML File"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSettingsDelete" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSettingsUser"
+        android:hint="user name" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSettingsPassword"
+        android:hint="Password" />
 </LinearLayout>

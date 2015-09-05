@@ -1,0 +1,9 @@
+E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\assemblies\MovieCatalogMobile.dll
+E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\assemblies\EngineIoClientDotNet.dll
+E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\assemblies\MovieCatalogLibrary.dll
+E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\assemblies\Newtonsoft.Json.dll
+E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\assemblies\RestSharp.dll
+E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\assemblies\SocketIOClient.dll
+E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\assemblies\SocketIoClientDotNet.dll
+E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\assemblies\WatTmdb.dll
+E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\assemblies\WebSocket4Net.dll

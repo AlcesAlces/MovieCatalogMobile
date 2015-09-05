@@ -3,6 +3,7 @@ using System.IO;
 using System.Xml;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 
 namespace MovieCatalogMobile
 {
@@ -19,6 +20,13 @@ namespace MovieCatalogMobile
 			saveLoc += @"/userinfo.xml";
 			return saveLoc;
 		}
+
+        public static void RemoveLocalXML()
+        {
+            File.Delete(getUserPath());
+            Thread.Sleep(10);
+            createUserFile();
+        }
 
 		//checks the integrity of the user file.
 		public static void verifyUserFile()
