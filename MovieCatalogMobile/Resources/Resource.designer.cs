@@ -45,7 +45,13 @@ namespace MovieCatalogMobile
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int ActionClicker_1 = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int ic_launcher = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int icon = 2130837506;
 			
 			static Drawable()
 			{
@@ -72,20 +78,17 @@ namespace MovieCatalogMobile
 			// aapt resource value: 0x7f050009
 			public const int btnMainSettings = 2131034121;
 			
-			// aapt resource value: 0x7f05000e
-			public const int btnSearchAdd = 2131034126;
-			
 			// aapt resource value: 0x7f05000d
 			public const int btnSearchGo = 2131034125;
 			
-			// aapt resource value: 0x7f050012
-			public const int btnSettingsDelete = 2131034130;
+			// aapt resource value: 0x7f050011
+			public const int btnSettingsDelete = 2131034129;
+			
+			// aapt resource value: 0x7f05000f
+			public const int btnSettingsLoad = 2131034127;
 			
 			// aapt resource value: 0x7f050010
-			public const int btnSettingsLoad = 2131034128;
-			
-			// aapt resource value: 0x7f050011
-			public const int btnSettingsLoginSync = 2131034129;
+			public const int btnSettingsLoginSync = 2131034128;
 			
 			// aapt resource value: 0x7f05000c
 			public const int etSearchInput = 2131034124;
@@ -93,8 +96,8 @@ namespace MovieCatalogMobile
 			// aapt resource value: 0x7f050005
 			public const int lvMovies = 2131034117;
 			
-			// aapt resource value: 0x7f05000f
-			public const int lvSearchMovies = 2131034127;
+			// aapt resource value: 0x7f05000e
+			public const int lvSearchMovies = 2131034126;
 			
 			// aapt resource value: 0x7f050000
 			public const int txtCatalogName = 2131034112;
@@ -117,11 +120,11 @@ namespace MovieCatalogMobile
 			// aapt resource value: 0x7f05000b
 			public const int txtRowYear = 2131034123;
 			
-			// aapt resource value: 0x7f050014
-			public const int txtSettingsPassword = 2131034132;
-			
 			// aapt resource value: 0x7f050013
-			public const int txtSettingsUser = 2131034131;
+			public const int txtSettingsPassword = 2131034131;
+			
+			// aapt resource value: 0x7f050012
+			public const int txtSettingsUser = 2131034130;
 			
 			static Id()
 			{

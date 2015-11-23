@@ -88,6 +88,7 @@ class MonoPackageManager_Resources {
 		"SocketIoClientDotNet.dll",
 		"WatTmdb.dll",
 		"WebSocket4Net.dll",
+		"System.ServiceModel.Internals.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

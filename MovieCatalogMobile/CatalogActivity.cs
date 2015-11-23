@@ -22,8 +22,10 @@ namespace MovieCatalogMobile
 		{
 			base.OnCreate (bundle);
 			SetContentView (Resource.Layout.catalogactivitylayout);
+
+            string info = Intent.GetStringExtra("search") ?? "";
 			//Stream inputFile = Assets.Open ("SampleMoviesList.xml");
-			listAdapter = new CustomListAdapter (this);
+			listAdapter = new CustomListAdapter (this, info);
 
 			var listview = FindViewById<ListView>(Resource.Id.lvMovies);
 

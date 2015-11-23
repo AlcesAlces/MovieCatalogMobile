@@ -13,6 +13,7 @@ using Android.Widget;
 using Android.Util;
 using System.IO;
 using SocketIOClient;
+using System.Threading;
 
 namespace MovieCatalogMobile
 {
@@ -91,7 +92,13 @@ namespace MovieCatalogMobile
 
             Global.socket.Connect();
 
-            while (!Global.socket.IsConnected);
+            Thread.Sleep(5000);
+
+            if (!Global.socket.IsConnected)
+            {
+                Toast.MakeText (this, "Failed to connect to server :(", ToastLength.Long).Show();
+                return;
+            }
 
             string userId = "";
             try
@@ -131,7 +138,9 @@ namespace MovieCatalogMobile
             catch(Exception ex)
             {
                 int i = 0;
+                return;
             }
+            Toast.MakeText (this, "Synced Successfully!", ToastLength.Long).Show();
         }
 	}
 }

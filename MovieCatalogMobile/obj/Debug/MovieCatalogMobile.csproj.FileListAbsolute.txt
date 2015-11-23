@@ -15,14 +15,12 @@ E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\M
 E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\android\bin\MovieCatalogMobile.MovieCatalogMobile.apk
 E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\res\layout\main.xml
 E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\res\values\strings.xml
-E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\res\drawable-hdpi\icon.png
-E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\res\drawable-mdpi\icon.png
-E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\res\drawable-xhdpi\icon.png
-E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\res\drawable-xxhdpi\icon.png
-E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\res\drawable-xxxhdpi\icon.png
 E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\res\layout\row.xml
 E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\res\layout\catalogactivitylayout.xml
 E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\res\layout\searchactivitylayout.xml
 E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\res\layout\settingsactivitylayout.xml
 E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\R.cs.flag
 E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\uploadflags.txt
+E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\res\drawable\actionclicker_1.png
+E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\res\drawable\ic_launcher.png
+E:\C#Projects\Xamarin Projects\MovieCatalogMobile\MovieCatalogMobile\obj\Debug\res\drawable\icon.png

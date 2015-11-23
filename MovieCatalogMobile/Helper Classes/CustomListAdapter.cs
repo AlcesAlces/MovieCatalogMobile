@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Android.Widget;
 using Android.App;
 using System.Collections.Generic;
@@ -17,11 +18,22 @@ namespace MovieCatalogMobile
 		Activity context;
 		public List<Movie> items;
 
-		public CustomListAdapter(Activity context) : base()
+        public CustomListAdapter(Activity context, string filterString = "") : base()
 		{
+            filterString = filterString.ToLower();
 			this.context = context;
-
 			this.items = FileHandlers.allMoviesInXml ();
+
+            if (filterString.Length != 0)
+            {
+                //Filter the list.
+                //this.items = this.items.Where(x => x.name.Contains(filterString)).ToList();
+                this.items = 
+                       (from a in this.items
+                        where a.name.ToLower().Contains(filterString)
+                        select a).ToList();
+
+            }
 		}
 
 		public override int Count

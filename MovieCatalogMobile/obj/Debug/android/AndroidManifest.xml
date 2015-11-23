@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="MovieCatalogMobile.MovieCatalogMobile">
+  <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="10" />
-  <application android:label="MovieCatalogMobile" android:name="mono.android.app.Application" android:debuggable="true">
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:label="MovieCatalogMobile" android:icon="@drawable/actionclicker_1" android:name="mono.android.app.Application" android:allowBackup="true" android:debuggable="true">
     <activity android:icon="@drawable/icon" android:label="MovieCatalogMobile" android:name="md556d2b3149be0f9bbef242fa692032902.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -12,6 +15,7 @@
     <activity android:label="SearchActivity" android:name="md556d2b3149be0f9bbef242fa692032902.SearchActivity" />
     <activity android:label="SettingsActivity" android:name="md556d2b3149be0f9bbef242fa692032902.SettingsActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="MovieCatalogMobile.MovieCatalogMobile.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
       <intent-filter>
         <action android:name="mono.android.intent.action.SEPPUKU" />
@@ -19,6 +23,4 @@
       </intent-filter>
     </receiver>
   </application>
-  <uses-permission android:name="android.permission.INTERNET" />
-  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 </manifest>

@@ -23,8 +23,10 @@ namespace MovieCatalogMobile
 			// and attach an event to it
 			Button button1 = FindViewById<Button> (Resource.Id.btnMainCollection);
 			Button button3 = FindViewById<Button> (Resource.Id.btnMainSettings);
+            Button button2 = FindViewById<Button>(Resource.Id.btnMainSearch);
 			
 			button1.Click += catalogClicked;
+            button2.Click += searchClicked;
 			button3.Click += settingsClicked;
 		}
 
@@ -37,5 +39,10 @@ namespace MovieCatalogMobile
 		{
 			StartActivity (typeof(SettingsActivity));
 		}
+
+        protected void searchClicked(object sender, EventArgs e)
+        {
+            StartActivity(typeof(SearchActivity));
+        }
 	}
 }

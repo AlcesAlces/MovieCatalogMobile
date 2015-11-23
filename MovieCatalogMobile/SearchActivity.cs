@@ -20,11 +20,17 @@ namespace MovieCatalogMobile
 		{
 			base.OnCreate (bundle);
 			SetContentView (Resource.Layout.searchactivitylayout);
+            Button btn = FindViewById<Button>(Resource.Id.btnSearchGo);
+            btn.Click += searchButtonClick;
 		}
 
 		protected void searchButtonClick(object sender, EventArgs e)
 		{
-
+            EditText et = FindViewById<EditText>(Resource.Id.etSearchInput);
+            string toSearch = et.Text;
+            var second = new Intent(this, typeof(CatalogActivity));
+            second.PutExtra("search", toSearch);
+            StartActivity(second);
 		}
 	}
 }
